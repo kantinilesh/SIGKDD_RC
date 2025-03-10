@@ -126,7 +126,7 @@ export default function Home() {
             {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
               <div key={unit} className="text-center">
                 <motion.div
-                  key={timeLeft[unit]}
+                  key={timeLeft[unit as keyof typeof timeLeft]}
                   variants={flipVariants}
                   initial="hidden"
                   animate="visible"
