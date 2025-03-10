@@ -199,35 +199,43 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-black border-t border-yellow-500/20 py-12">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="flex justify-center items-center space-x-4 mb-6">
-            <img src="/acmnav.svg" alt="SRM Logo" className="h-10 w-10" />
-            <img src="/BIG_400x400.png" alt="ACM SIGKDD Logo" className="h-10 w-10" />
-          </div>
-          <p className="text-gray-400 max-w-lg mx-auto mb-6">
-            SRM ACM SIGKDD is dedicated to fostering innovation in Data Science, Machine Learning, and AI.
-          </p>
-          <div className="flex flex-col space-y-3 text-gray-300 mb-6">
-            <div className="flex items-center justify-center space-x-2">
-              <User className="h-5 w-5 text-yellow-500" />
-              <p><span className="font-semibold">Chair:</span> Srijan (+91 98765 43210)</p>
-            </div>
-            <div className="flex items-center justify-center space-x-2">
-              <Mail className="h-5 w-5 text-yellow-500" />
-              <p>srmacmsigkdd@gmail.com</p>
-            </div>
-          </div>
-          <div className="flex justify-center space-x-6 mb-6">
-            <a href="#" className="text-gray-400 hover:text-yellow-500 transition">
-              <Instagram className="h-6 w-6" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-yellow-500 transition">
-              <Linkedin className="h-6 w-6" />
-            </a>
-          </div>
-          <p className="text-gray-500 text-sm">© 2024 SRM ACM SIGKDD. All rights reserved.</p>
-        </div>
-      </footer>
+  <div className="max-w-4xl mx-auto px-4 text-center">
+    <div className="flex justify-center items-center space-x-4 mb-6">
+      <img src="/BIG_400x400.png" alt="SRM Logo" className="h-14 w-14" />
+      <img src="/acmnav.svg" alt="ACM SIGKDD Logo" className="h-14 w-14" />
+    </div>
+    <p className="text-gray-400 max-w-lg mx-auto mb-6">
+      SRM ACM SIGKDD is dedicated to fostering innovation in Data Science, Machine Learning, and AI.
+    </p>
+    <div className="flex flex-col space-y-3 text-gray-300 mb-6">
+      <div className="flex items-center justify-center space-x-2">
+        <User className="h-5 w-5 text-yellow-500" />
+        <p><span className="font-semibold">Chair:</span> Srijan (+91 83368 94338)</p>
+      </div>
+      <div className="flex items-center justify-center space-x-2">
+        <User className="h-5 w-5 text-yellow-500" />
+        <p><span className="font-semibold">Vice Chair:</span> Sakshi (+91 87654 32109)</p>
+      </div>
+      <div className="flex items-center justify-center space-x-2">
+        <User className="h-5 w-5 text-yellow-500" />
+        <p><span className="font-semibold">Treasurer:</span> Nilesh (+91 93412 07002)</p>
+      </div>
+      <div className="flex items-center justify-center space-x-2">
+        <Mail className="h-5 w-5 text-yellow-500" />
+        <p>srmacmsigkdd@gmail.com</p>
+      </div>
+    </div>
+    <div className="flex justify-center space-x-6 mb-6">
+      <a href="#" className="text-gray-400 hover:text-yellow-500 transition">
+        <Instagram className="h-6 w-6" />
+      </a>
+      <a href="#" className="text-gray-400 hover:text-yellow-500 transition">
+        <Linkedin className="h-6 w-6" />
+      </a>
+    </div>
+    <p className="text-gray-500 text-sm">© 2024 SRM ACM SIGKDD. All rights reserved.</p>
+  </div>
+</footer>
     </div>
   );
 }
