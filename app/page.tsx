@@ -132,7 +132,8 @@ export default function Home() {
                   animate="visible"
                   className="bg-yellow-500 text-black text-2xl md:text-4xl font-bold w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-lg"
                 >
-                  {timeLeft[unit] < 0 ? 0 : timeLeft[unit]}
+                  {timeLeft[unit as keyof typeof timeLeft] < 0 ? 0 : timeLeft[unit as keyof typeof timeLeft]}
+
                 </motion.div>
                 <p className="text-sm md:text-base mt-2 capitalize">{unit}</p>
               </div>
