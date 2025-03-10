@@ -210,7 +210,7 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-center space-x-2">
         <User className="h-5 w-5 text-yellow-500" />
-        <p><span className="font-semibold">Vice Chair:</span> Sakshi (+91 87654 32109)</p>
+        <p><span className="font-semibold">Vice Chair:</span> Sakshi (+91 97358 44700)</p>
       </div>
       <div className="flex items-center justify-center space-x-2">
         <User className="h-5 w-5 text-yellow-500" />
