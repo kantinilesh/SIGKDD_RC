@@ -83,7 +83,6 @@ export default function Home() {
             <div className="flex items-center">
               <img src="/Srmseal.png" alt="SRM Logo" className="h-12 w-18" />
               <img src="/acmnav.svg" alt="ACM SIGKDD Logo" className="h-12 w-18" />
-              <img src="/BIG_400X400.png" alt="ACM SIGKDD Logo" className="h-12 w-18" />
             </div>
             <div className="md:hidden">
               <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
