@@ -218,7 +218,7 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-center space-x-2">
         <Mail className="h-5 w-5 text-yellow-500" />
-        <p>srmacmsigkdd@gmail.com</p>
+        <p>srmsigkdd@gmail.com</p>
       </div>
     </div>
     <div className="flex justify-center space-x-6 mb-6">
