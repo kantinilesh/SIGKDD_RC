@@ -225,7 +225,7 @@ export default function Home() {
       <a href="https://www.instagram.com/srmsigkdd?igsh=NTR2bXhtNDhvY29t" className="text-gray-400 hover:text-yellow-500 transition">
         <Instagram className="h-6 w-6" />
       </a>
-      <a href="#" className="text-gray-400 hover:text-yellow-500 transition">
+      <a href="https://www.linkedin.com/company/srmsigkdd/" className="text-gray-400 hover:text-yellow-500 transition">
         <Linkedin className="h-6 w-6" />
       </a>
     </div>
