@@ -141,7 +141,7 @@ export default function Home() {
 
           <Button
             className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-6 text-lg rounded-full"
-            onClick={() => window.open('https://form.typeform.com/to/LPz52SQ4', '_blank')}
+            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdMCRoZIX0_zl0zkoJFfOgzEaEfJG401GWIy7BdaZVPGK4RtQ/viewform?usp=header', '_blank')}
           >
             APPLY NOW
           </Button>
